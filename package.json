@@ -1,0 +1,15 @@
+{
+  "name": "serverless-stations",
+  "version": "1.0.0",
+  "description": "Calculate most suitable link station for a device at given point",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "invoke": "serverless invoke --function index --path data.json --log",
+    "invoke-local": "serverless invoke local --function index --path data.json",
+    "deploy": "serverless deploy"
+  },
+  "devDependencies": {
+    "serverless": "^1.33.2"
+  }
+}
